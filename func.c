@@ -17,9 +17,9 @@ double kelvinToCelsius(double k) {
 }
 
 double fahrenheitToKelvin(double f) {
-    return f;
+    return (f - 32) * 5/9 + 273.15;
 }
 
 double kelvinToFahrenheit(double k) {
-    return k;
+    return (k - 273.15) * 9/5 + 32;
 }
