@@ -23,3 +23,14 @@ double fahrenheitToKelvin(double f) {
 double kelvinToFahrenheit(double k) {
     return (k - 273.15) * 9/5 + 32;
 }
+
+char* toUpper(char *s) {
+    int i = 0;
+
+    while (s[i] != '\0') {
+        s[i] = toupper(s[i]);
+        i++;
+    }
+
+    return s;
+}

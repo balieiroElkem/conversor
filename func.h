@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include <stdlib.h>
+
 
 // Recebe uma temperatura em celsius e devolve em Fahrenheit
 double celsiusToFahrenheit(double);
@@ -17,3 +21,6 @@ double fahrenheitToKelvin(double);
 
 // Recebe uma temperatura em Kelvin e devolve em Fahrenheit
 double kelvinToFahrenheit(double);
+
+// Transforma string em maísculas
+char* toUpper(char *);
