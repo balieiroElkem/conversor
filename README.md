@@ -1,7 +1,7 @@
 # conversor
 Um conversor de temperatura
 
-# Para executar:
+<h3> Para executar:</h3>
 <p>É necessário ter o gcc na máquina</p>
 # Compilar
 <code>gcc main.c -o nomeQualquer</code>
