@@ -1,7 +1,8 @@
 #include "func.h"
 
 
-int main(int argc, char **argv) {
+int 
+main(int argc, char **argv) {
     if (argc != 4) {
         printf("Algumentos faltando:\n");
         printf("conversor [dado inicial] [de sistema] [para sistema]");
